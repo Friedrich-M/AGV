@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%dijkstra得到所有最短路径%%%%%%%%%%%%%%%%%%%%%
+%dijkstra得到所有最短路径
 function [L,sp, spcost] =dijkstraR(W, s, d,q)
 % W 邻接矩阵   % s 起点  % d 终点 %l 约束路径条数
 % L 约束路径条数  % sp 所有路径矩阵  %spcost 最短路径距离
